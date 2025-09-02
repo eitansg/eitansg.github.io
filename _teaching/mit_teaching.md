@@ -1,12 +1,14 @@
 ---
 title: "Teaching at MIT"
 collection: teaching
-type: "Graduate Student TA"
+type: "Graduate Student Teaching Assistant"
 permalink: /teaching/mit_teaching
 # venue: "MIT, Department of Economics"
-# date: '2021-2025'
+date: 2021
 location: "Cambridge (MA), United States"
 ---
+
+As a graduate student TA at MIT, I was responsible for preparing and presenting one recitation (additional lecture) each week in additional to standard TA responsibilities. Click each class name on the linked page above to see my recitation slides for that class.
 
 Spring 2025
 ======

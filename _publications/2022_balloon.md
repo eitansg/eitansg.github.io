@@ -5,7 +5,7 @@ category: working
 permalink: /research/2022_balloon
 excerpt: 'Exploring high-variance "trial balloon" projects can provide informational value even when they are ex-ante disliked.'
 date: 2022-11-20
-# venue: ''
+venue: 'TBD (revision coming soon)'
 slidesurl: # 'http://academicpages.github.io/files/slides1.pdf'
 paperurl: 'https://arxiv.org/abs/2211.02743'
 bibtexurl: # 'http://academicpages.github.io/files/bibtex1.bib'
