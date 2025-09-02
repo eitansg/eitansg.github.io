@@ -3,12 +3,10 @@ title: "Teaching at MIT"
 collection: teaching
 type: "Graduate Student TA"
 permalink: /teaching/mit_teaching
-venue: "MIT, Department of Economics"
-# date: 2014-01-01
+# venue: "MIT, Department of Economics"
+date: '2021--2025'
 location: "Cambridge (MA), United States"
 ---
-
-Click a link to access my recitation slides for each class. A standard class has 12 weeks of material; some classes are missing a few weeks which were presented non-digitally (e.g., on the blackboard), and some include additional slides for exam review.
 
 Spring 2025
 ======
