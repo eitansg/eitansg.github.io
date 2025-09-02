@@ -26,11 +26,7 @@ author:
   name             : "Personal Information"
   pronouns         : # example: "she/her"  
   bio              : "Postdoc at Princeton Politics, incoming AP at Purdue Business School"
-<<<<<<< HEAD
   location         : # "Earth"
-=======
-  location         : "Earth"
->>>>>>> e0849a9d914c58705eb4020a67b1abef5233b21a
   employer         : "Princeton University"
   uri              : # URL
   email            : "eitans@princeton.edu" 
