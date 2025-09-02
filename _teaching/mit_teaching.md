@@ -3,7 +3,7 @@ title: "Teaching at MIT"
 collection: teaching
 type: "Graduate Student Teaching Assistant"
 permalink: /teaching/mit_teaching
-# venue: "MIT, Department of Economics"
+venue: "MIT Department of Economics"
 date: 2021-09-01
 location: "Cambridge (MA), United States"
 ---
