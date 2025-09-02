@@ -25,9 +25,9 @@ author:
   avatar           : "profile.png"
   name             : "Contact Information"
   pronouns         : # example: "she/her"  
-  bio              : # "Postdoc at Princeton Politics, incoming AP at Purdue Business School"
+  bio              : "Here are a few ways to reach me:"
   location         : # "Earth"
-  employer         : "Princeton University"
+  employer         : "[Princeton University](https://politics.princeton.edu/people/lecturers-postdocs-visitors)"
   uri              : # URL
   email            : "eitans@princeton.edu" 
 

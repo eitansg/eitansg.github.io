@@ -5,7 +5,7 @@ category: conference
 permalink: /research/2019_trust
 excerpt: 'Classical NLP methods show how speech and voting records of U.S. senators differ in systematic ways.'
 date: 2019-07-17
-venue: 'AAAI 2019'
+venue: 'Proceedings of the 33rd AAAI Conference on Artificial Intelligence'
 slidesurl: # 'http://academicpages.github.io/files/slides2.pdf'
 paperurl: 'https://ojs.aaai.org/index.php/AAAI/article/view/5151'
 citation: 'Sapiro-Gheiler, Eitan. (2019). &quot;Examining Political Trustworthiness through Text-Based Measures of Ideology.&quot; <i>Proceedings of the 33rd AAAI Conference on Artificial Intelligence,</i>, vol. 33(1); pp. 100029--100030.'
