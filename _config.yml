@@ -23,9 +23,9 @@ repository               : "eitansg/eitansg.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Personal Information"
+  name             : "Contact Information"
   pronouns         : # example: "she/her"  
-  bio              : "Postdoc at Princeton Politics, incoming AP at Purdue Business School"
+  bio              : # "Postdoc at Princeton Politics, incoming AP at Purdue Business School"
   location         : # "Earth"
   employer         : "Princeton University"
   uri              : # URL
@@ -33,7 +33,7 @@ author:
 
   # Academic websites
   academia         : # URL
-  arxiv            : "https://arxiv.org/search/econ?searchtype=author&query=Sapiro-Gheiler,+E"
+  arxiv            : "https://arxiv.org/search/?searchtype=author&query=Sapiro-Gheiler%2C+E"
   googlescholar    : # "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
   inspire-hep      : # URL
   impactstory      : # URL
