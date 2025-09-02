@@ -25,8 +25,8 @@ author:
   avatar           : "profile.png"
   name             : "Contact Information"
   pronouns         : # example: "she/her"  
-  bio              : "Here are a few ways to reach me:"
-  location         : # "Earth"
+  bio              : "Here are some ways to reach me:"
+  location         : "Princeton, NJ"
   employer         : "Princeton University"
   uri              : # URL
   email            : "eitans@princeton.edu" 
@@ -48,7 +48,7 @@ author:
   codepen          : # Username
   dribbble         : # Username
   github           : # "academicpages"
-  kaggle           : # Username  
+  kaggle           : eitansg  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
