@@ -1,93 +1,84 @@
-\documentclass[11pt,letterpaper]{article}
+\documentclass[11pt,reqno]{amsart}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{setspace}
+\usepackage[dvipsnames]{xcolor}
+\usepackage[colorlinks=true,allcolors=Blue,linkcolor=Blue]{hyperref}
+\setlength{\parindent}{0pt}
+\linespread{1.5}
+\usepackage{etoolbox}
+\patchcmd{\section}{\scshape}{\large \bfseries}{}{}
 
-\usepackage[margin=0.85in]{geometry}
-\usepackage{enumitem}
-\usepackage[hidelinks]{hyperref}
-\usepackage{titlesec}
-\usepackage[T1]{fontenc}
-\usepackage{lmodern}
+\makeatletter
+\patchcmd{\section}{\centering}{\raggedright}{}{}
+\makeatother
 
-% Section formatting
-\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
-\titlespacing{\section}{0pt}{12pt}{6pt}
-
-% Remove page numbers (optional — comment out to restore)
-% \pagestyle{empty}
-
-% Tighter list spacing
-\setlist[itemize]{nosep, leftmargin=1.5em}
+\leftskip=30pt \parindent=-\leftskip
 
 \begin{document}
+\pagenumbering{gobble}
 
-\begin{center}
-{\LARGE \textbf{Eitan Sapiro-Gheiler}} \\[6pt]
-\href{mailto:eitans@princeton.edu}{eitans@princeton.edu} \quad $\cdot$ \quad
-\href{https://eitansg.github.io}{eitansg.github.io} \quad $\cdot$ \quad
-\href{https://scholar.google.com/citations?user=eIXUMmwAAAAJ&hl=en}{Google Scholar}
-\end{center}
+\Large
+\textbf{Eitan Sapiro-Gheiler}
+\vspace{0.25cm}
+\hrule
+\vspace{0.3cm}
 
-\section{Academic Positions}
-\begin{itemize}
-  \item \textbf{Assistant Professor}, Purdue University, 2026--
-    \begin{itemize}
-      \item Management Information Systems Group, Daniels School of Business
-    \end{itemize}
-  \item \textbf{Postdoctoral Research Associate}, Princeton University, 2025--2026
-    \begin{itemize}
-      \item Department of Politics
-    \end{itemize}
-\end{itemize}
+\normalsize
 
-\section{Education}
-\begin{itemize}
-  \item \textbf{Ph.D.\ in Economics}, MIT, 2019--2025
-  \item \textbf{B.A.\ in Economics} (\textit{summa cum laude}, Phi Beta Kappa), Princeton University, 2015--2019
-\end{itemize}
+Contact: \href{mailto:eitans@princeton.edu}{eitans@princeton.edu} \quad $\cdot$ \quad \href{https://eitansg.github.io}{eitansg.github.io} \quad $\cdot$ \quad \href{https://scholar.google.com/citations?user=eIXUMmwAAAAJ&hl=en}{Google Scholar}
 
-\section{Research}
+\section*{Academic Positions}
+Assistant Professor, Purdue University \hfill 2026--\\
+Management Information Systems Group, Daniels School of Business
 
-\subsection*{Working Papers}
-\begin{itemize}
-  \item ``Strategic Opinion-Writing on Appellate Courts'' \\
-    \small \href{https://tinyurl.com/eitan-jmp}{[Paper]}
-  \item ``The Persuasion Penalty: Ideologically Extreme Judges Write Less Persuasive Decisions'' \\
-    (with Elliott Ash, Daniel L.\ Chen, and Sergio Galletta) \\
-    \small \href{https://tinyurl.com/esg-pers}{[Paper]}
-  \item ``Burst Your Bubble: An Intelligent System for Improving Awareness of Diverse Social Opinions'' \\
-    (with Sihao Chen, Daniel Ngo, Alisa Liu, Ashwin Srinivasan, Ari Holtzman, and Dan Roth) \\
-    \small \textit{AAAI 2019 Student Track --- Finalist for Best Paper}
-\end{itemize}
+Postdoctoral Research Associate, Princeton University \hfill 2025--2026\\
+Department of Politics
 
-\subsection*{Works in Progress (Selected)}
-\begin{itemize}
-  \item ``Delegation versus Cheap Talk: The Value of Commitment''
-  \item ``Automated Categorization and Partisanship Detection in Judicial Opinions''
-\end{itemize}
+\section*{Education}
+Ph.D.\ in Economics, Massachusetts Institute of Technology \hfill 2019--2025
 
-\subsection*{Publications}
-\begin{itemize}
-  \item ``Can You Trust Your Neighbors? A Formal Model of Trust and Learning'' \\
-    (with Maryam Saeedi) \\
-    \small \textit{Submitted}
-\end{itemize}
+B.A.\ in Economics (\textit{summa cum laude}, Phi Beta Kappa), Princeton University \hfill 2015--2019
 
-\section{Awards, Grants, and Fellowships}
-\begin{itemize}
-  \item National Science Foundation Graduate Research Fellowship, 2019--2024
-  \item Finalist for Best Student-Track Submission, AAAI 2019
-  \item \textit{Undergraduate, Princeton University:} Halbert White '72 Prize in Economics, Wolf Balleisen Memorial Prize, Department of Economics Junior First Prize, Shapiro Prize for Academic Excellence
-\end{itemize}
+\section*{Publications}
+Eitan Sapiro-Gheiler, ``Persuasion with Ambiguous Receiver Preferences,'' \textit{Economic Theory}, August 2023. \href{https://doi.org/10.1007/s00199-023-01522-z}{Link to published version}.
 
-\section{Seminar and Conference Presentations}
-\begin{itemize}
-  \item \textbf{2025:} Khipu Latin American Meeting for Artificial Intelligence; Purdue University (Daniels School of Business); Microsoft Research (Economics and Computation Group)
-\end{itemize}
+Eitan Sapiro-Gheiler, ``Examining Political Trustworthiness Through Text-Based Measures of Ideology,'' \textit{Proceedings of the 33\textsuperscript{rd} AAAI Conference on Artificial Intelligence}, Honolulu, January 2019. Finalist for Best Student-Track Submission. \href{https://ojs.aaai.org/index.php/AAAI/article/view/5151}{Link to published version.}
 
-\section{Personal}
-\begin{itemize}
-  \item \textbf{Citizenship:} United States, Uruguay
-  \item \textbf{Languages:} English, Spanish (mother languages), French (fluent)
-  \item \textbf{Software:} Python, R, MATLAB, Java
-\end{itemize}
+\section*{Working Papers}
+Eitan Sapiro-Gheiler, ``Strategic Opinion-Writing on Appellate Courts.'' \href{https://tinyurl.com/eitan-jmp}{Download paper}.
+
+Eitan Sapiro-Gheiler, ``Discovery through Trial Balloons.'' \href{https://tinyurl.com/esg-pers}{Download paper}.
+
+\section*{Works in Progress (Selected)}
+``Delegation versus Cheap Talk: The Value of Commitment''
+
+``Automated Categorization and Partisanship Detection in Judicial Opinions''
+
+\section*{Awards, Grants, and Fellowships}
+National Science Foundation Graduate Research Fellowship \hfill 2019--2024
+
+Finalist for Best Student-Track Submission, AAAI \hfill 2019
+
+\textit{Undergraduate, Princeton University:}
+
+Halbert White '72 Prize in Economics (Top Economics Undergraduate) \hfill 2019
+
+Wolf Balleisen Memorial Prize (Best Economics Undergraduate Thesis) \hfill 2019
+
+Princeton University Department of Economics Junior First Prize \hfill 2018
+
+Shapiro Prize for Academic Excellence \hfill 2017
+
+\section*{Seminar and Conference Presentations}
+\textbf{2025:} Khipu Latin American Meeting for Artificial Intelligence; Purdue University (Daniels School of Business); Microsoft Research (Economics and Computation Group)
+
+\section*{Personal}
+Citizenship: United States, Uruguay
+
+Languages: English, Spanish (mother languages), French (fluent)
+
+Software: Python, R, MATLAB, Java
 
 \end{document}
