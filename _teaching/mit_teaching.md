@@ -8,7 +8,7 @@ date: 2021-09-01
 location: "Cambridge (MA), United States"
 ---
 
-As a graduate student TA at MIT, I was responsible for preparing and presenting one recitation (additional lecture) each week in additional to standard TA responsibilities. Click each class name on the linked page above to see my recitation slides for that class.
+I was responsible for preparing and presenting one recitation (additional lecture) each week in addition to standard TA responsibilities. Click each class name below to access my recitation slides.
 
 Spring 2025
 ======
