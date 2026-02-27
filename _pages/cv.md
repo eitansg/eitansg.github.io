@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-<a href="{{ base_path }}/files/cv.pdf" class="btn btn--info">Download CV (PDF)</a>
+<a href="{{ base_path }}/files/eitan_cv.pdf" class="btn btn--info">Download CV (PDF)</a>
 
 Academic Positions
 ======
