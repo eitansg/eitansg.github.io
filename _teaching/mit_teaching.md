@@ -5,7 +5,9 @@ type: "Graduate Student Teaching Assistant"
 permalink: /teaching/mit_teaching
 venue: "MIT Department of Economics"
 date: 2021-09-01
+years: "2021–2025"
 location: "Cambridge (MA), United States"
+excerpt: ""
 ---
 
 I was responsible for preparing and presenting one recitation (additional lecture) each week in addition to standard TA responsibilities. Click each class name below to access my recitation slides.

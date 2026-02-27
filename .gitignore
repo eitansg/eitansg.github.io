@@ -16,5 +16,13 @@ package-lock.json
 /vendor/
 .bundle/
 
+# Ignore LaTeX auxiliary files
+files/*.aux
+files/*.log
+files/*.out
+files/*.synctex.gz
+files/*.fls
+files/*.fdb_latexmk
+
 # Ignore folders related to IDEs
 .vscode/

@@ -23,7 +23,7 @@ repository               : "eitansg/eitansg.github.io"
 author:
   # Biographic information
   avatar           : "hiking.jpeg"
-  name             : "Contact Information"
+  name             : "Eitan Sapiro-Gheiler"
   pronouns         : # example: "she/her"  
   bio              : # "Short bio if the landing page changes"
   location         : # "Princeton, NJ"
@@ -34,7 +34,7 @@ author:
   # Academic websites
   academia         : # URL
   arxiv            : "https://arxiv.org/search/?searchtype=author&query=Sapiro-Gheiler%2C+E"
-  googlescholar    : # "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=eIXUMmwAAAAJ&hl=en"
   inspire-hep      : # URL
   impactstory      : # URL
   orcid            : "https://orcid.org/0000-0003-3887-8436"
@@ -123,7 +123,7 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
+  hide                   : true      # change to true to hide the RSS feed in the footer
   path                   : # blank (default) uses feed.xml
 
 
@@ -260,8 +260,8 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
-      comments: true
+      share: false
+      comments: false
   # _publications
   - scope:
       path: ""
@@ -269,8 +269,8 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
-      comments: true
+      share: false
+      comments: false
   # _portfolio
   - scope:
       path: ""
