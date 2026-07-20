@@ -32,7 +32,7 @@
       {% else %}
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
-      {% if post.coauthors %}<span class="archive__item-coauthors">(with {{ post.coauthors | markdownify | remove: "<p>" | remove: "</p>" }})</span>{% endif %}
+      {% if post.coauthors %}<span class="archive__item-coauthors">(with {{ post.coauthors | markdownify | remove: "<p>" | remove: "</p>" | strip }})</span>{% endif %}
     </h2>
     
     {% if post.read_time %}
