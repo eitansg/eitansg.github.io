@@ -72,6 +72,10 @@
 .archive__item--compact {
   .archive__item-title {
     margin-bottom: 0.15em;
+    /* .page__content h2 pads below for its underline; the underline is already
+       removed here, so drop the padding too and keep every gap in the paper
+       even. */
+    padding-bottom: 0;
   }
 
   p {
