@@ -43,6 +43,12 @@
   }
 }
 
+/* Coauthors are set outside the title proper so they can carry their own
+   links; lighten them so the title still reads as the title. */
+.page__title-coauthors {
+  font-weight: normal;
+}
+
 .page__lead {
   font-family: $global-font-family;
   font-size: $type-size-4;

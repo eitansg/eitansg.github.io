@@ -66,6 +66,29 @@
   }
 }
 
+/* Publications: tighten the lines within a single paper so they read as one
+   block, and lean on the title's top margin to separate one paper from the
+   next. */
+.archive__item--compact {
+  .archive__item-title {
+    margin-bottom: 0.15em;
+  }
+
+  p {
+    margin-bottom: 0.15em;
+  }
+}
+
+.page__content .archive__item--compact .archive__item-title {
+  margin-top: 1.5em;
+}
+
+/* Coauthors sit outside the title's permalink anchor, so they can carry their
+   own links. Lighten them so the title still reads as the title. */
+.archive__item-coauthors {
+  font-weight: normal;
+}
+
 .archive__item-teaser {
   border-radius: $border-radius;
   overflow: hidden;

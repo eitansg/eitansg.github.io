@@ -1,10 +1,12 @@
 ---
 title: "Does Party Affiliation Trump Appointing President? An Empirical Analysis of Trump's Appellate Judges"
+coauthors: '[John Kastellec](https://jkastellec.scholar.princeton.edu/)'
 collection: research
 category: working
 permalink: /research/2026_trump
-excerpt: '(With [John Kastellec](https://jkastellec.scholar.princeton.edu/))<br>Trump-appointed appellate judges do not produce more conservative case outcomes than other Republican appointees, but they do cast more conservative votes from the bench.<br>Submitted.'
+excerpt: 'Trump-appointed appellate judges do not produce more conservative case outcomes than other Republican appointees, but they do cast more conservative votes from the bench.'
 date: 2026-07-20
+venue: 'Submitted, 2026.'
 paperurl: 'https://eitansg.github.io/files/trump.pdf'
 ---
 

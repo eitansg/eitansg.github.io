@@ -1,10 +1,12 @@
 ---
 title: "Appealing to Large-Language-Model-as-Judge: A Comprehensive Machine-Coded Database for the U.S. Courts of Appeals"
+coauthors: '[John Kastellec](https://jkastellec.scholar.princeton.edu/)'
 collection: research
 category: working
 permalink: /research/2026_appealing
-excerpt: '(With [John Kastellec](https://jkastellec.scholar.princeton.edu/))<br>We use large language models to extend standard political science codebooks to the universe of published U.S. Court of Appeals opinions (440,000 published opinions, 1892--2025).<br>Submitted.'
+excerpt: 'We use large language models to extend standard political science codebooks to the universe of published U.S. Court of Appeals opinions (440,000 published opinions, 1892--2025).'
 date: 2026-07-20
+venue: 'Submitted, 2026.'
 paperurl: 'https://eitansg.github.io/files/llm_appeals.pdf'
 ---
 

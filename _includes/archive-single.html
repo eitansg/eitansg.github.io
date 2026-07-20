@@ -13,7 +13,7 @@
 {% endif %}
 
 <div class="{{ include.type | default: "list" }}__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+  <article class="archive__item{% if post.collection == 'publications' %} archive__item--compact{% endif %}" itemscope itemtype="http://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
         <img src=
@@ -32,6 +32,7 @@
       {% else %}
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
+      {% if post.coauthors %}<span class="archive__item-coauthors">(with {{ post.coauthors | markdownify | remove: "<p>" | remove: "</p>" }})</span>{% endif %}
     </h2>
     
     {% if post.read_time %}
@@ -44,7 +45,7 @@
           {% if post.category == 'journal' or post.category == 'conference' %}
             <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
           {% elsif post.category != 'wip' %}
-            <p>{{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+            <p>{% if post.venue %}{{ post.venue }}{% else %}{{ post.date | default: "1900-01-01" | date: "%Y" }}{% endif %}</p>
           {% endif %}
         {% elsif post.date %}
          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
