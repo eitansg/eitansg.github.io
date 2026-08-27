@@ -178,6 +178,8 @@ exclude:
   - Capfile
   - config
   - Dockerfile
+  - files/cv_jm.tex
+  - files/eitan_cv_jm.pdf
   - Gemfile
   - Gruntfile.js
   - gulpfile.js

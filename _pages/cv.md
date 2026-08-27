@@ -13,9 +13,9 @@ redirect_from:
 
 Academic Positions
 ======
-* Assistant Professor, Purdue University, 2026--
+* Assistant Professor, Purdue University, 2027--
   * Management Information Systems Group, Daniels School of Business
-* Postdoctoral Research Associate, Princeton University, 2025--2026
+* Postdoctoral Research Associate, Princeton University, 2025--2027
   * Department of Politics
 
 Education

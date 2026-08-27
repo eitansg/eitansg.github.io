@@ -1,5 +1,6 @@
 ---
 title: "Delegation versus Cheap Talk: The Value of Commitment"
+coauthors: '[John Kastellec](https://jkastellec.scholar.princeton.edu/)'
 collection: research
 category: wip
 permalink: /research/wip_delegation

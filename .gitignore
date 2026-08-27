@@ -24,5 +24,17 @@ files/*.synctex.gz
 files/*.fls
 files/*.fdb_latexmk
 
+# Ignore the job-market CV (kept local, never published or committed)
+files/cv_jm.tex
+files/eitan_cv_jm.pdf
+
+# Ignore application statements (kept local for now)
+files/statement.sty
+files/ts_overleaf.pdf
+files/cover_letter*.tex
+files/cover_letter*.pdf
+files/*_statement*.tex
+files/*_statement*.pdf
+
 # Ignore folders related to IDEs
 .vscode/
