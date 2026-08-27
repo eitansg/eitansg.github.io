@@ -1,6 +1,6 @@
 ---
 title: "Does Party Affiliation Trump Appointing President? An Empirical Analysis of Trump's Appellate Judges"
-coauthors: '[John Kastellec](https://jkastellec.scholar.princeton.edu/)'
+coauthors: '[Jonathan Kastellec](https://jkastellec.scholar.princeton.edu/)'
 collection: research
 category: working
 permalink: /research/2026_trump

@@ -1,6 +1,6 @@
 ---
 title: "Appealing to Large-Language-Model-as-Judge: A Comprehensive Machine-Coded Database for the U.S. Courts of Appeals"
-coauthors: '[John Kastellec](https://jkastellec.scholar.princeton.edu/)'
+coauthors: '[Jonathan Kastellec](https://jkastellec.scholar.princeton.edu/)'
 collection: research
 category: working
 permalink: /research/2026_appealing
