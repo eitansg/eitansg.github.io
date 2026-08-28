@@ -1,5 +1,5 @@
 ---
-title: "Appealing to Large-Language-Model-as-Judge: A Comprehensive Machine-Coded Database for the U.S. Courts of Appeals"
+title: "Appealing to Large-Language-Model-as-Judge: Annotating and Analyzing the Universe of U.S. Appellate Opinions"
 coauthors: '[Jonathan Kastellec](https://jkastellec.scholar.princeton.edu/)'
 collection: research
 category: working
