@@ -20,8 +20,8 @@ Academic Positions
 
 Education
 ======
-* Ph.D in Economics, MIT, 2019--2025
-* B.A. in Economics (<i>summa cum laude</i>, Phi Beta Kappa), Princeton University, 2015--2019
+* PhD in Economics, MIT, 2019--2025
+* BA in Economics (<i>summa cum laude</i>, Phi Beta Kappa), Princeton University, 2015--2019
 
 Awards, Grants, and Fellowships
 ======
